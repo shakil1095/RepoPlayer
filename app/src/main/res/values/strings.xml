@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RepoPlayer</string>
+    <string name="home_title">Home</string>
+    <string name="repo_title">Repositories</string>
+    <string name="settings_title">Settings</string>
+    <string name="warning_no_content">This app does not provide any content. You must add sources yourself and are responsible for only using content you have the right to access.</string>
+    <string name="warning_legal_notice">Legal warning: We do not host or endorse content. Add only legal sources that you are allowed to access.</string>
+    <string name="hint_repo_url">Paste repo URL or repoplayer://add?url=…</string>
+    <string name="button_add_repo">Add repo</string>
+    <string name="button_load_sample">Load sample repo</string>
+    <string name="button_remove">Remove</string>
+    <string name="settings_dark_mode">Dark mode</string>
+    <string name="settings_repo_foundation">Repository foundation</string>
+    <string name="settings_pref_title">Preferences storage</string>
+    <string name="empty_repo_list">No repositories added yet.</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_repos">Repos</string>
+    <string name="nav_settings">Settings</string>
+    <string name="error_invalid_repo">Unable to validate repo JSON.</string>
+    <string name="info_repo_added">Repository added</string>
+    <string name="info_repo_removed">Repository removed</string>
+</resources>

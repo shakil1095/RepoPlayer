@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/repo_title"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline5"
+        android:paddingBottom="8dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="8dp">
+
+        <EditText
+            android:id="@+id/repoInput"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/hint_repo_url"
+            android:inputType="textUri"
+            android:imeOptions="actionDone"
+            android:focusable="true"
+            android:nextFocusRight="@id/addRepoButton" />
+
+        <Button
+            android:id="@+id/addRepoButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_add_repo"
+            android:focusable="true" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/demoRepoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_load_sample"
+        android:focusable="true" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/repoRecycler"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:focusable="true" />
+
+    <TextView
+        android:id="@+id/repoEmptyState"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/empty_repo_list"
+        android:visibility="gone" />
+
+</LinearLayout>

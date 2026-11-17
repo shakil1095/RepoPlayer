@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/home_title"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline5"
+        android:paddingBottom="8dp" />
+
+    <TextView
+        android:id="@+id/warningText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/warning_background"
+        android:padding="12dp"
+        android:text="@string/warning_no_content"
+        android:textColor="@color/warning_text"
+        android:focusable="true"
+        android:nextFocusDown="@id/repoButton" />
+
+    <TextView
+        android:id="@+id/legalText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/warning_legal_notice"
+        android:paddingTop="12dp"
+        android:paddingBottom="8dp" />
+
+    <Button
+        android:id="@+id/repoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/repo_title"
+        android:focusable="true"
+        android:nextFocusDown="@id/settingsButton" />
+
+    <Button
+        android:id="@+id/settingsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/settings_title"
+        android:focusable="true" />
+
+</LinearLayout>

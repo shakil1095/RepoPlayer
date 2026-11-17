@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RepoPlayer</string>
+    <string name="home_title">হোম</string>
+    <string name="repo_title">রেপোজিটরি</string>
+    <string name="settings_title">সেটিংস</string>
+    <string name="warning_no_content">এই অ্যাপের কোনো কন্টেন্ট নেই। আপনাকে নিজে উৎস যোগ করতে হবে এবং শুধুমাত্র এমন কন্টেন্ট ব্যবহার করতে হবে যার ব্যবহার আপনার কাছে বৈধ।</string>
+    <string name="warning_legal_notice">আইনি সতর্কতা: আমরা কোনো কন্টেন্ট হোস্ট বা সমর্থন করি না। শুধুমাত্র বৈধ উৎস যোগ করুন যা আপনি ব্যবহার করতে পারেন।</string>
+    <string name="hint_repo_url">রেপো URL বা repoplayer://add?url=… পেস্ট করুন</string>
+    <string name="button_add_repo">রেপো যোগ করুন</string>
+    <string name="button_load_sample">স্যাম্পল রেপো লোড করুন</string>
+    <string name="button_remove">মুছুন</string>
+    <string name="settings_dark_mode">ডার্ক মোড</string>
+    <string name="settings_repo_foundation">রেপোজিটরি ফাউন্ডেশন</string>
+    <string name="settings_pref_title">পছন্দসমূহ সংরক্ষণ</string>
+    <string name="empty_repo_list">এখনও কোনো রেপোজিটরি যোগ করা হয়নি।</string>
+    <string name="nav_home">হোম</string>
+    <string name="nav_repos">রেপো</string>
+    <string name="nav_settings">সেটিংস</string>
+    <string name="error_invalid_repo">রেপো JSON যাচাই করতে অক্ষম।</string>
+    <string name="info_repo_added">রেপোজিটরি যোগ হয়েছে</string>
+    <string name="info_repo_removed">রেপোজিটরি মুছে ফেলা হয়েছে</string>
+</resources>

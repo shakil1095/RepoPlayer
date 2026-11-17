@@ -1,0 +1,33 @@
+<!--
+  The app intentionally ships with no inbuilt content repositories.
+  This sample is valid public-domain material and acts only as a test fixture.
+-->
+{
+  "id": "legal-demo-repo",
+  "name": "Legal Demo Repo",
+  "description": "A legal test repo illustrating the repository format.",
+  "version": "1.0.0",
+  "minAppVersion": "0.1.0",
+  "language": "en",
+  "supportedContentTypes": ["Movie", "Documentary"],
+  "icon": "https://example.com/icon.png",
+  "status": "ok",
+  "authors": ["RepoPlayer Team"],
+  "extensions": [
+    {
+      "id": "public-domain-demo",
+      "name": "Public Domain Demo Provider",
+      "description": "Demonstrates a legal provider using public-domain media sources.",
+      "version": "1.0.0",
+      "language": "en",
+      "minAppVersion": "0.1.0",
+      "icon": "https://example.com/provider.png",
+      "downloadUrl": "https://example.com/provider.zip",
+      "sha256": "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef",
+      "authors": ["RepoPlayer Team"],
+      "status": "ok",
+      "supportedContentTypes": ["Movie", "Documentary"],
+      "nsfw": false
+    }
+  ]
+}
